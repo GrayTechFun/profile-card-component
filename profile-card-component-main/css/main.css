@@ -1,0 +1,73 @@
+html {
+  font-size: 62.5%;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10em;
+  background-color: white;
+  width: 30em;
+  border-radius: 1em;
+  align-items: center;
+  margin-top: 20em;
+}
+
+body {
+  background-color: #1d929e;
+}
+
+.card {
+  width: 30em;
+  border-radius: 1em 1em 0 0;
+}
+
+.victor {
+  border-radius: 50%;
+  width: 5em;
+}
+
+.span {
+  font-size: 1.5rem;
+}
+
+.london {
+  margin-top: -0.8em;
+  margin-left: 3em;
+  color: #5b5c63;
+  font-size: 1rem;
+}
+
+span {
+  color: #5b5c63;
+}
+
+.stats {
+  display: flex;
+  gap: 6em;
+}
+
+.stats h3 {
+  font-size: 1.5rem;
+}
+
+.stats p {
+  color: #5b5c63;
+  margin-top: -1em;
+}
+
+.followers p {
+  margin-left: -1em;
+}
+
+hr {
+  border: 0.5px solid #e2e2e2;
+  width: 29.8em;
+}
+
+@media only screen and (min-width: 600px) {
+  .wrapper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
