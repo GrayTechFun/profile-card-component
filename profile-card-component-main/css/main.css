@@ -15,16 +15,31 @@ html {
 
 body {
   background-color: #1d929e;
+  background-image: url(../images/bg-pattern-top.svg),
+    url(../images/bg-pattern-bottom.svg);
+  background-position: -55em -40em, 20em 35em;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 80em 80em;
+  overflow-x: visible;
+  overflow: visible;
 }
 
 .card {
   width: 30em;
   border-radius: 1em 1em 0 0;
+  position: relative;
 }
 
 .victor {
   border-radius: 50%;
-  width: 5em;
+  width: 6em;
+  position: absolute;
+  margin-top: 8.9em;
+  border: 1px solid white;
+}
+
+.mid-section {
+  margin-top: 2.5em;
 }
 
 .span {
@@ -69,5 +84,9 @@ hr {
   .wrapper {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  body {
+    background-position: -10em -40em, 70em 30em;
   }
 }
